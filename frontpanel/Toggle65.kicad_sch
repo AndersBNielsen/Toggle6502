@@ -1498,6 +1498,162 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:C_Small"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.254 1.778 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_Small"
+				(at 0.254 -2.032 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor, small symbol"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "capacitor cap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_Small_0_1"
+				(polyline
+					(pts
+						(xy -1.524 0.508) (xy 1.524 0.508)
+					)
+					(stroke
+						(width 0.3048)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 -0.508) (xy 1.524 -0.508)
+					)
+					(stroke
+						(width 0.3302)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_Small_1_1"
+				(pin passive line
+					(at 0 2.54 270)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 90)
+					(length 2.032)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:LED_Small_Filled"
 			(pin_numbers
 				(hide yes)
@@ -2521,6 +2677,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "38b982ce-106f-4a6f-95db-0aca75ca3689")
+	)
+	(junction
+		(at 121.92 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3c5fa61e-d7b8-4c26-948f-2f458d9a7871")
+	)
+	(junction
+		(at 121.92 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4307de15-03a1-4586-ab05-c74dce4f0483")
 	)
 	(junction
 		(at 180.34 69.85)
@@ -3824,6 +3992,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 27.94) (xy 121.92 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3b6c79-9eea-4914-b100-436e2d5f2fd5")
+	)
+	(wire
+		(pts
 			(xy 147.32 118.11) (xy 156.21 118.11)
 		)
 		(stroke
@@ -4361,6 +4539,16 @@
 			(type default)
 		)
 		(uuid "454a44fe-1011-457a-a939-b53f3096c2f5")
+	)
+	(wire
+		(pts
+			(xy 137.16 43.18) (xy 137.16 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45b2ce27-2a76-4ad6-8574-bd852388a963")
 	)
 	(bus
 		(pts
@@ -5954,6 +6142,16 @@
 	)
 	(wire
 		(pts
+			(xy 121.92 27.94) (xy 121.92 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a80ccc81-358c-4fc9-92b9-f9e5ebbcee2e")
+	)
+	(wire
+		(pts
 			(xy 128.27 135.89) (xy 134.62 135.89)
 		)
 		(stroke
@@ -6281,6 +6479,16 @@
 			(type default)
 		)
 		(uuid "bdb8284f-5b53-4b0d-b6f9-d7f3e25294ec")
+	)
+	(wire
+		(pts
+			(xy 137.16 38.1) (xy 137.16 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bdbdb123-139d-4553-9c74-b3ebfe6dc70c")
 	)
 	(wire
 		(pts
@@ -7024,7 +7232,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 26.67) (xy 121.92 29.21)
+			(xy 121.92 26.67) (xy 121.92 27.94)
 		)
 		(stroke
 			(width 0)
@@ -7041,6 +7249,16 @@
 			(type default)
 		)
 		(uuid "f6ee4fdb-2171-46f9-9918-8da9f5ce6060")
+	)
+	(wire
+		(pts
+			(xy 137.16 49.53) (xy 121.92 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7d45cb9-8ec6-417f-8492-e250842c6eb3")
 	)
 	(wire
 		(pts
@@ -12664,6 +12882,98 @@
 			(project "Toggle65"
 				(path "/952348e6-14ff-4dd8-97a2-6ef53ae7757e"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 137.16 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ceea108-5285-4882-ac61-2d943bf8768d")
+		(property "Reference" "C6"
+			(at 139.7 39.3762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 139.7 41.9162 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P5.00mm"
+			(at 137.16 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 137.16 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 137.16 40.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C49678"
+			(at 137.16 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "29c6c439-4709-4c23-a5d9-732a072eca83")
+		)
+		(pin "2"
+			(uuid "3832389e-d35c-4df9-9d70-1ed0d7b6d871")
+		)
+		(instances
+			(project "Toggle65"
+				(path "/952348e6-14ff-4dd8-97a2-6ef53ae7757e"
+					(reference "C6")
 					(unit 1)
 				)
 			)
