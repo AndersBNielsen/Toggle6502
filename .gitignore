@@ -29,3 +29,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+frontpanel/.DS_Store
+frontpanel/production/.DS_Store
+motherboard/.DS_Store

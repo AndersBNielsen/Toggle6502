@@ -78,11 +78,75 @@
       ],
       "drc_exclusions": [
         [
+          "clearance|84965000|52955949|2d06f833-8c28-43aa-9acd-3cc759c4f163|444d512c-d397-4649-8f5d-149d676c6d8b",
+          ""
+        ],
+        [
           "courtyards_overlap|154746076|69605000|c94e01b5-e2b9-463e-801c-fdf193daf1d6|cf1b6510-a110-4d24-a838-c09ee4f9bbd3",
           ""
         ],
         [
           "courtyards_overlap|165410000|79515000|bd8ece41-3a5d-4d41-8a50-435afbe2c97d|c94e01b5-e2b9-463e-801c-fdf193daf1d6",
+          ""
+        ],
+        [
+          "silk_edge_clearance|78105000|101750000|917816ec-4976-438d-8bad-4faf1bc305bb|1504d2e8-14fc-49b5-95ef-6cacdaf8e936",
+          ""
+        ],
+        [
+          "starved_thermal|84390000|48479436|55dbf3f3-d58d-4663-89bd-0638f94c7fbb|1d7ceec4-f702-456b-9fcc-82c8d66b945e|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|84390000|48479436|55dbf3f3-d58d-4663-89bd-0638f94c7fbb|5cca4c34-c564-4fe7-9970-550a12c6db93|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|84390000|54879436|55dbf3f3-d58d-4663-89bd-0638f94c7fbb|1e58ed7d-5353-4afc-8e02-c9562e641120|B.Cu",
+          ""
+        ],
+        [
+          "starved_thermal|84390000|54879436|55dbf3f3-d58d-4663-89bd-0638f94c7fbb|80f22af4-50ab-43b9-be03-93ac8655d1a6|B.Cu",
+          ""
+        ],
+        [
+          "track_width|83440000|51929436|eed39a16-1471-47eb-8383-4663cb3c2a31|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_width|83573795|51563231|c17038a3-27d6-45d5-a4d1-27c6617421de|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_width|83573795|52295641|d8d7e55c-a7bc-413e-b419-810d57e96c46|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_width|84048795|51429436|1eb79afa-5f22-44b3-9132-efc964b01125|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_width|84048795|52429436|3dc92f3b-2a5d-4fb6-a455-c9108bbfdcde|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_width|84731205|50929436|69944cb4-4b12-45be-b3c1-ebff7eb3da88|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_width|84731205|51929436|a304526a-b050-4a4b-9871-5673c68e5eff|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_width|85206205|51063231|6f4da382-2672-47fb-857e-3db7637605aa|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_width|85206205|51795641|7f5dc3ff-a196-4ac6-9dbf-c09f64e3b357|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
+          "track_width|85340000|51429436|674ccd06-6434-4fa0-960c-76034f0c68d2|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -171,7 +235,7 @@
         "min_track_width": 0.25,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -678,7 +742,7 @@
         "uuid": "69b952d5-3269-40c0-8882-4a7de0153d69"
       }
     ],
-    "used_designators": "H1-4",
+    "used_designators": "#PWR125,R43-45,H1-4",
     "variants": []
   },
   "sheets": [
