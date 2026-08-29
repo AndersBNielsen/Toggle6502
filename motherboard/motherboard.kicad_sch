@@ -6380,10 +6380,22 @@
 		(uuid "8f11e220-6913-4882-8a5c-2c5aaa0f70b3")
 	)
 	(junction
+		(at 173.99 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8fef3f72-724b-4856-a243-878d8521b761")
+	)
+	(junction
 		(at 148.59 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9cc57f3a-ac0a-4faf-834b-41f9bce629cb")
+	)
+	(junction
+		(at 142.24 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9e401adb-d9e4-42ce-a7eb-1870f8f0af40")
 	)
 	(junction
 		(at 144.78 46.99)
@@ -6426,12 +6438,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d1fed103-6177-4efc-a62e-3ab33a72e062")
-	)
-	(junction
-		(at 143.51 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d47ecab8-a273-4da3-9353-ae03a6eac04b")
 	)
 	(junction
 		(at 53.34 130.81)
@@ -8096,7 +8102,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 147.32) (xy 135.89 147.32)
+			(xy 127 147.32) (xy 135.89 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8186,7 +8192,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 153.67) (xy 143.51 156.21)
+			(xy 142.24 153.67) (xy 142.24 156.21)
 		)
 		(stroke
 			(width 0)
@@ -8196,7 +8202,7 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 156.21) (xy 128.27 147.32)
+			(xy 127 156.21) (xy 127 147.32)
 		)
 		(stroke
 			(width 0)
@@ -8263,6 +8269,16 @@
 			(type default)
 		)
 		(uuid "1e8928d4-78f4-4b0e-97dc-c357a66b421b")
+	)
+	(wire
+		(pts
+			(xy 166.37 153.67) (xy 158.75 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f1f5b49-fc1d-429a-9495-ab00e05927e8")
 	)
 	(bus
 		(pts
@@ -8386,6 +8402,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 161.29) (xy 173.99 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26b951df-2337-46b3-9563-7257df1b41df")
+	)
+	(wire
+		(pts
 			(xy 189.23 110.49) (xy 190.5 110.49)
 		)
 		(stroke
@@ -8446,7 +8472,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 156.21) (xy 143.51 158.75)
+			(xy 142.24 156.21) (xy 142.24 158.75)
 		)
 		(stroke
 			(width 0)
@@ -8966,7 +8992,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 139.7) (xy 226.06 139.7)
+			(xy 187.96 140.97) (xy 215.9 140.97)
 		)
 		(stroke
 			(width 0)
@@ -9226,7 +9252,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 156.21) (xy 195.58 156.21)
+			(xy 173.99 156.21) (xy 195.58 156.21)
 		)
 		(stroke
 			(width 0)
@@ -9373,16 +9399,6 @@
 			(type default)
 		)
 		(uuid "5b4f7cb4-80c5-4d65-bfe8-108d73224c90")
-	)
-	(wire
-		(pts
-			(xy 187.96 140.97) (xy 187.96 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5b7b1f6f-f222-4f5c-a14e-2381110fc0e0")
 	)
 	(wire
 		(pts
@@ -9724,6 +9740,16 @@
 		)
 		(uuid "770f3aef-cf8a-4f48-87fe-d253d3243727")
 	)
+	(wire
+		(pts
+			(xy 142.24 156.21) (xy 143.51 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "786f77f6-4beb-4607-870f-67a777aaf682")
+	)
 	(bus
 		(pts
 			(xy 104.14 130.81) (xy 104.14 133.35)
@@ -9886,7 +9912,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 148.59) (xy 158.75 153.67)
+			(xy 166.37 148.59) (xy 166.37 153.67)
 		)
 		(stroke
 			(width 0)
@@ -10956,16 +10982,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 158.75) (xy 172.72 158.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf4f5e83-b98a-438a-8cbb-7f221e66dea4")
-	)
-	(wire
-		(pts
 			(xy 60.96 40.64) (xy 60.96 46.99)
 		)
 		(stroke
@@ -11013,6 +11029,16 @@
 			(type default)
 		)
 		(uuid "d137881f-f7a8-418c-9e79-0100aad02e99")
+	)
+	(wire
+		(pts
+			(xy 173.99 170.18) (xy 173.99 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1f258cb-1374-4406-852e-8603489e6a22")
 	)
 	(wire
 		(pts
@@ -11246,7 +11272,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 161.29) (xy 195.58 161.29)
+			(xy 173.99 161.29) (xy 195.58 161.29)
 		)
 		(stroke
 			(width 0)
@@ -11266,7 +11292,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 148.59) (xy 172.72 148.59)
+			(xy 166.37 148.59) (xy 172.72 148.59)
 		)
 		(stroke
 			(width 0)
@@ -12734,6 +12760,16 @@
 		)
 		(uuid "e767067b-916e-4550-a9c6-9f5eecc57255")
 	)
+	(label "Ø0"
+		(at 148.59 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ed5f5f43-85fe-4f81-bd1f-1798e1bb5f8e")
+	)
 	(label "D6"
 		(at 137.16 78.74 0)
 		(effects
@@ -13071,8 +13107,8 @@
 		)
 	)
 	(global_label "~{RW}"
-		(shape input)
-		(at 226.06 139.7 0)
+		(shape output)
+		(at 215.9 140.97 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13082,7 +13118,7 @@
 		)
 		(uuid "48c3e269-dc38-411c-a5a4-f4020f89b85e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.7666 139.7 0)
+			(at 221.6066 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15130,7 +15166,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3b8f0254-9717-4926-b4d2-75dea78fc4c9")
 		(property "Reference" "C1"
 			(at 232.664 107.696 0)
@@ -15316,7 +15352,7 @@
 		(dnp no)
 		(uuid "4995f452-b4f0-4141-bf6f-6d51a7bb4a5b")
 		(property "Reference" "R44"
-			(at 64.77 181.61 90)
+			(at 65.532 181.61 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16818,6 +16854,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 173.99 167.64 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9194d5b5-2b27-4d2b-9bac-a349e23e6a6a")
+		(property "Reference" "R46"
+			(at 174.752 167.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4k7"
+			(at 172.085 167.64 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P5.08mm_Horizontal"
+			(at 173.99 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "afea5f7d-694f-4dc5-a27b-5b9f83c4c6fc")
+		)
+		(pin "2"
+			(uuid "b2d2a9a2-871e-4f87-ad5c-c7b8ff41ba3f")
+		)
+		(instances
+			(project "motherboard"
+				(path "/69b952d5-3269-40c0-8882-4a7de0153d69"
+					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 67.31 127 0)
 		(mirror y)
@@ -17265,7 +17379,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC00")
-		(at 180.34 158.75 180)
+		(at 166.37 158.75 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -17275,7 +17389,7 @@
 		(dnp no)
 		(uuid "9f7caa76-bbe0-4b86-9058-d8f4c2efb4bc")
 		(property "Reference" "U9"
-			(at 180.34 158.75 0)
+			(at 166.37 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17285,7 +17399,7 @@
 			)
 		)
 		(property "Value" "74HC132"
-			(at 180.34 165.1 0)
+			(at 166.37 165.1 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -17295,7 +17409,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 180.34 158.75 0)
+			(at 166.37 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17306,7 +17420,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 180.34 158.75 0)
+			(at 166.37 158.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17317,7 +17431,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 158.75 0)
+			(at 166.37 158.75 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18153,6 +18267,83 @@
 			(project "motherboard"
 				(path "/69b952d5-3269-40c0-8882-4a7de0153d69"
 					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 173.99 172.72 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c75d89f2-8de3-4d4c-b927-b7a6a98dc834")
+		(property "Reference" "#PWR0127"
+			(at 173.99 179.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 170.434 174.498 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 173.99 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "554bee62-f37f-409c-a50f-a7c227e43414")
+		)
+		(instances
+			(project "motherboard"
+				(path "/69b952d5-3269-40c0-8882-4a7de0153d69"
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -19318,7 +19509,7 @@
 	)
 	(symbol
 		(lib_id "74xx:74HC00")
-		(at 135.89 156.21 180)
+		(at 134.62 156.21 180)
 		(unit 2)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -19328,7 +19519,7 @@
 		(dnp no)
 		(uuid "e5b648af-8c63-4fdf-b90a-a110a0e68280")
 		(property "Reference" "U9"
-			(at 135.636 156.718 0)
+			(at 134.366 156.718 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19338,7 +19529,7 @@
 			)
 		)
 		(property "Value" "74HC132"
-			(at 136.652 161.544 0)
+			(at 135.382 161.544 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19348,7 +19539,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket"
-			(at 135.89 156.21 0)
+			(at 134.62 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19359,7 +19550,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74hc00"
-			(at 135.89 156.21 0)
+			(at 134.62 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19370,7 +19561,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 135.89 156.21 0)
+			(at 134.62 156.21 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
